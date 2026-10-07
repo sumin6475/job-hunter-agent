@@ -57,7 +57,7 @@ class JobHunterCrew:
     def job_extraction_task(self):
         return Task(
             config=self.tasks_config["job_extraction_task"],
-            ourput_pydantic=JobList
+            output_pydantic=JobList
         )
 
     @task
